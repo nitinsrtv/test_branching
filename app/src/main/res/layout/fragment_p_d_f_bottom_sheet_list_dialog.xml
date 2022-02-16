@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_8dp">
+
+        <TextView
+            android:id="@+id/curriculum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="@font/source_sans_pro_regular"
+            android:text="Curriculum"
+            android:textColor="#2C3A4B"
+            android:textFontWeight="600"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/img_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/ic_download"
+            app:layout_constraintBottom_toBottomOf="@+id/curriculum"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/curriculum"
+            app:layout_constraintTop_toTopOf="@+id/curriculum" />
+
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_share"
+            app:layout_constraintBottom_toBottomOf="@+id/img_download"
+            app:layout_constraintEnd_toStartOf="@+id/img_close"
+            app:layout_constraintStart_toEndOf="@+id/img_download"
+            app:layout_constraintTop_toTopOf="@+id/img_download" />
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_baseline_close_24"
+            app:layout_constraintBottom_toBottomOf="@+id/img_share"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img_share"
+            android:foregroundGravity="center"/>
+
+        <ProgressBar
+            android:id="@+id/baseProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/continue_browsing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/curriculum"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listPdf"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/continue_browsing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/curriculum"
+            tools:context="com.scaler.ui.ui.fragments.PdfBottomSheetFragment"
+            tools:listitem="@layout/fragment_p_d_f_bottom_sheet_list_dialog_item" />
+
+        <Button
+            android:id="@+id/continue_browsing"
+            style="@style/Button.Bottomsheet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="@dimen/dimen_20"
+            android:text="Continue Browsing"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
