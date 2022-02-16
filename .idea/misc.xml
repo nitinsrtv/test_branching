@@ -15,10 +15,12 @@
         <entry key="app/src/main/res/drawable/ic_date_bg.xml" value="0.2630208333333333" />
         <entry key="app/src/main/res/drawable/ic_date_bg_checked.xml" value="0.2630208333333333" />
         <entry key="app/src/main/res/drawable/ic_date_bg_unchecked.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/ic_download.xml" value="0.18072916666666666" />
         <entry key="app/src/main/res/drawable/ic_facebook_5_1.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/drawable/ic_radio.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/drawable/ic_role.xml" value="0.20925925925925926" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.18072916666666666" />
         <entry key="app/src/main/res/drawable/mentor_bottom_sheet_style.xml" value="0.5385909982291148" />
         <entry key="app/src/main/res/drawable/my_button.xml" value="0.3260416666666667" />
         <entry key="app/src/main/res/drawable/rectangle_1.xml" value="0.11611842105263158" />
