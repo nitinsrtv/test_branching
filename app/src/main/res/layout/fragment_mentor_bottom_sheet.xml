@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/know_your_mentor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:padding="5dp"
+        android:text="Know Your Mentor"
+        android:textColor="#2C3A4B"
+        android:textFontWeight="600"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/closeMBS"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_close_24" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mentorPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/round_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/know_your_mentor">
+
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/mentorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Anshuman Singh"
+        android:textColor="#0E1E38"
+        android:textFontWeight="600"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mentorPhoto"
+        app:layout_constraintStart_toEndOf="@+id/mentorPhoto"
+        app:layout_constraintTop_toTopOf="@+id/mentorPhoto"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/eX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Ex"
+        android:textColor="#61738E"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mentorPhoto"
+        app:layout_constraintStart_toEndOf="@+id/mentorPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/mentorName"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/organisation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/ic_facebook_5_1"
+        app:layout_constraintBottom_toBottomOf="@+id/eX"
+        app:layout_constraintEnd_toEndOf="@+id/mentorName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/eX"
+        app:layout_constraintTop_toBottomOf="@+id/mentorName"
+        app:layout_constraintVertical_bias="0.68" />
+
+
+    <View
+        android:id="@+id/grey_container"
+        android:layout_width="320dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectangle_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mentorPhoto" />
+
+    <ImageView
+        android:id="@+id/role_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/grey_container"
+        app:layout_constraintTop_toTopOf="@+id/grey_container"
+        app:srcCompat="@drawable/ic_role" />
+
+    <TextView
+        android:id="@+id/role_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="Lead Software Developer"
+        android:textColor="#1A2C47"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/grey_container"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/role_image"
+        app:layout_constraintTop_toTopOf="@+id/grey_container" />
+
+    <ImageView
+        android:id="@+id/yoe_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/grey_container"
+        app:layout_constraintStart_toStartOf="@+id/grey_container"
+        app:srcCompat="@drawable/ic_yoe" />
+
+    <TextView
+        android:id="@+id/yoe_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="24 Years of Experience"
+        android:textColor="#1A2C47"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/grey_container"
+        app:layout_constraintEnd_toEndOf="@+id/grey_container"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/yoe_image" />
+
+    <TextView
+        android:id="@+id/about_mentor_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingExtra="2sp"
+        android:padding="2dp"
+        android:textColor="#021028"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_container" />
+
+
+    <View
+        android:id="@+id/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/my_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_mentor_text"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/linkedInProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View LinkedIn Profile"
+        android:textColor="#0080FF"
+        app:layout_constraintBottom_toBottomOf="@+id/button_border"
+        app:layout_constraintEnd_toEndOf="@+id/button_border"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="@+id/button_border"
+        app:layout_constraintTop_toTopOf="@+id/button_border" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_linkedin"
+        app:layout_constraintBottom_toBottomOf="@+id/button_border"
+        app:layout_constraintEnd_toStartOf="@+id/linkedInProfile"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/button_border"
+        app:layout_constraintTop_toTopOf="@+id/button_border" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/blc_button_bg.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/bottom_sheet_style.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/bottomsheet_style.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/bullet.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/circular.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/date_bg_selector.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/ic_clock.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/ic_date_bg.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/drawable/ic_date_bg_checked.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/drawable/ic_date_bg_unchecked.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/ic_facebook_5_1.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/ic_radio.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/ic_role.xml" value="0.20925925925925926" />
+        <entry key="app/src/main/res/drawable/mentor_bottom_sheet_style.xml" value="0.5385909982291148" />
+        <entry key="app/src/main/res/drawable/my_button.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/rectangle_1.xml" value="0.11611842105263158" />
+        <entry key="app/src/main/res/drawable/round_image.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/textmentor.xml" value="0.1734375" />
+        <entry key="app/src/main/res/layout/about_mentor_item.xml" value="0.2391304347826087" />
+        <entry key="app/src/main/res/layout/activity_api25_fix.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/activity_bottom_sheet.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_about_class.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_class_booked.xml" value="0.6118876325698801" />
+        <entry key="app/src/main/res/layout/fragment_mentor_bottom_sheet.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/fragment_p_d_f_bottom_sheet_list_dialog.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/fragment_p_d_f_bottom_sheet_list_dialog_item.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/fragment_request_callback_bottom_sheet.xml" value="0.15729166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.625" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
